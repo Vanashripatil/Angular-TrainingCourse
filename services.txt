@@ -1,0 +1,7 @@
+I have created enrollservice class
+We are using this in angular and javascript ts file so for them enrollservice
+is dependancy.
+So we create new instance and we want to use method inside enrollservice class
+
+Is a technique in which a class receives its dependancies from external sources 
+rather than creating them itself.

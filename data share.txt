@@ -1,0 +1,18 @@
+to pass data from parent to child
+1. in parent html called child component
+2. create data in paraent with value.
+3. bind that data with another name.
+4. create @input decorator in child component ts file just before constructor
+Use that another name with @input decorator.
+5. in child component html use that name with interpolation.
+
+to pass data from child to parent
+1. @output decorator let data flow from child to parent
+2. Configuring the child component - import { Output, EventEmitter } from '@angular/core';
+3. @Output() newItemEvent = new EventEmitter<string>() - tells angular to create new event emitter and that the 
+data it emits is of type string.
+4. create method to raise the event with value
+5. Configuring the child template - call method 
+6. Configuring the parent component -  create list of data and method.
+7. put child tempate into pareant template
+
